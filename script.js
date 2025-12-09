@@ -2,7 +2,7 @@
 /////////////////////////////////////////////////////
 
 let
-	Admin = ["Ms.Simpkins", "Ms.Woodham", "Lynch", ],
+	Admin = ["Fowlkes", "Lynch", "Woodham", "Stahl", "Peter"],
 	CTE = ["Alphonse", "Donahue", "Santana", "Vaduva", "Woods", "Shams", "Urena"],
 	History = ["McQuilkin", "Amell", "Hablenko", "Schmidt", "Headlem", "Lucas", "Smith"],
 	Counselor = ["Grant", "Weaver"],
