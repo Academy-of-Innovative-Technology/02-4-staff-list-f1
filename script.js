@@ -20,6 +20,11 @@ let
 /////////////////////////////////////////////////////
 
 ////////// MAKE YOUR UPDATES WITHIN THIS SECTION //// 
+Admin.splice(4, 1);  
+Admin.splice(3, 1);
+Admin.push("simpkens")
+
+Counselor.push("molina")
 
 
 
