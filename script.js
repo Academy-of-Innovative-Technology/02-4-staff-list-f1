@@ -15,27 +15,34 @@ let
 	Office = ["Verley"],
 	Support = ["Kabir", "Minto"],
 	SSC = ["Stephine"];
+	Guidence_Counselor = ["millena"];
 
 //////// DO NOT EDIT ABOVE THIS LINE ////////////////
 /////////////////////////////////////////////////////
 
 ////////// MAKE YOUR UPDATES WITHIN THIS SECTION //// 
+
+
 Admin.splice(4, 2);  
 Admin.splice(3, 1);
 Admin.splice(0, 1);
+Admin.splice(0, 1);
 Admin.push("simpkins")
+Admin.push("Drysdale")
 
 
 
-
-Office.push("mr.marinez")
+Office.splice(0, 2);
+Office.push("Martinez")
 Office.push("mike")
 Office.push("tirido")
+Office.push("swing")
 
-Counselor.push("slater")
+
+
 Counselor.push("cooper")
-Counselor.push("molina")
 
+Counselor.push("Desroches")
 Counselor.splice(0, 2);  
 
 
@@ -49,6 +56,8 @@ CTE.push("piere")
 CTE.push("frazer")
 CTE.push("ramswak")
 CTE.push("shams")
+CTE.push("powell")
+
 
 History.splice(0, 2); 
 History.splice(0, 2); 
@@ -97,14 +106,19 @@ English.push("Grizell")
 
 Support.splice(0, 2);
 Support.unshift("david")
-Support.push("Jay")
-Support.push("Griffen")
+Support.push("belfon")
+Support.push("dawn")
+Support.push("kabir")
+Support.push("rodriguez")
+Support.push("slater")
+Support.push("minto")
 
 SSC.splice(0, 8);
 SSC.push("ricardo")
 
 
-
+Guidence_Counselor.push("cooper")
+Guidence_Counselor.push("desroches")
 
 
 
@@ -144,6 +158,6 @@ SSC.push("ricardo")
 //////// DO NOT EDIT BELOW THIS LINE ////////////////
 /////////////////////////////////////////////////////
 
-const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Language, Science, English, Support, SSC];
+const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Language, Science, English, Support, SSC,Guidence_Counselor ];
 
 e("table").innerHTML = createTableCotents();
